@@ -9,5 +9,5 @@
       "label": "desktop"
     }
   },
-  "postCreateCommand": ""
+  "postCreateCommand": "sleep 10 && x11vnc -forever -usepw -display :0"
 }
